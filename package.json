@@ -1,7 +1,7 @@
 {
   "name": "json-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![Travis CI](https://img.shields.io/travis/cbas/json-api.svg)](https://travis-ci.org/cbas/json-api)",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
@@ -19,5 +19,16 @@
     "nodemon": "^1.8.1",
     "standard": "^5.4.1",
     "supertest": "^1.1.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidsng/json-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/davidsng/json-api/issues"
+  },
+  "homepage": "https://github.com/davidsng/json-api#readme"
 }
